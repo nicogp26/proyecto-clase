@@ -16,7 +16,7 @@ function enviarMensaje(){
     mensaje:mensaje
   }
 
-axios.post("/subir",mensaje)
+axios.post("https://proyecto-class.onrender.com/subir",mensaje)
 .then(function (res){
 alert("El mensaje se envio");
 setTimeout(function(){
